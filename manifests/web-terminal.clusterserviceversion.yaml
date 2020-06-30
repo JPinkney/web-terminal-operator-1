@@ -290,7 +290,7 @@ spec:
                         value: "registry.redhat.io/codeready-workspaces/plugin-openshift-rhel8:2.1"
                       - name: RELATED_IMAGE_openshift_oauth_proxy
                         value: "openshift/oauth-proxy:latest"
-                    image: quay.io/jpinkney/che-workspace-controller:nightly
+                    image: quay.io/che-incubator/che-workspace-controller:nightly
                     imagePullPolicy: Always
                     name: che-workspace-controller
                     ports:
@@ -335,7 +335,7 @@ spec:
                   app.kubernetes.io/part-of: devworkspace-operator
               spec:
                 containers:
-                  - image: quay.io/jpinkney/che-workspace-controller-cert-gen:latest
+                  - image: quay.io/che-incubator/che-workspace-controller-cert-gen:latest
                     imagePullPolicy: Always
                     name: che-workspace-controller-cert-gen
                     resources: {}

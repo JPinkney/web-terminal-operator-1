@@ -42,7 +42,7 @@ make uninstall unregister_catalogsource
 ```
 
 ### Related Projects
-- The Web Terminal Operator is powered by the [devworkspace-operator](https://github.com/devfile/devworkspace-operator)
+- The Web Terminal Operator is powered by the [devworkspace-operator](https://github.com/devfile/devworkspace-operator).
 
 ### Source Syncing
 | source | destination | sync job |
